@@ -35,6 +35,7 @@
             android:layout_width="300dp"
             android:layout_height="40dp"
             android:layout_marginTop="12dp"
+            android:inputType="text"
             android:background="@drawable/background_edittext"
             android:ems="10"
             android:gravity="center"
