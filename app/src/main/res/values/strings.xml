@@ -5,6 +5,7 @@
     <string name="email">Digite seu email</string>
     <string name="telefone">Digite seu telefone</string>
     <string name="curso">Digite seu Curso</string>
+    <string name="semestre">Digite seu semestre</string>
     <string name="interesse">Digite sua área de interesse</string>
     <string name="perfil">Perfil do participante</string>
     <string name="comp">Computação</string>
