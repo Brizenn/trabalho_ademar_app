@@ -1,7 +1,6 @@
 package com.example.trabalho_ademar_app;
 
 import android.os.Bundle;
-import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
