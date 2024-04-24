@@ -6,7 +6,11 @@
     <string name="telefone">Digite seu telefone</string>
     <string name="curso">Digite seu Curso</string>
     <string name="semestre">Digite seu semestre</string>
-    <string name="interesse">Digite sua área de interesse</string>
+    <string name="interesse">Escolha sua área de interesse</string>
+    <string name="inteligencia">Inteligencia artificial</string>
+    <string name="rv">Realidade Virtual</string>
+    <string name="ra">Realidade Aumentada</string>
+    <string name="matricula">Digite sua matricula</string>
     <string name="perfil">Perfil do participante</string>
     <string name="comp">Computação</string>
     <string name="une">Unemat</string>

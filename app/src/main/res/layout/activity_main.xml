@@ -39,25 +39,6 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <EditText
-            android:id="@+id/textView5"
-            android:layout_width="300dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="8dp"
-            android:autofillHints="name"
-            android:background="@drawable/background_edittext"
-            android:ems="10"
-            android:gravity="center"
-            android:hint="@string/interesse"
-            android:inputType="text"
-            android:textColor="@color/black"
-            android:textColorHint="@color/black"
-            android:textSize="14sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
-        <EditText
             android:id="@+id/textView4"
             android:layout_width="300dp"
             android:layout_height="40dp"
@@ -156,21 +137,21 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/interesse"
             android:textColor="@color/black"
-            android:text="@string/perfil"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.058"
+            app:layout_constraintHorizontal_bias="0.062"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView2"
-            app:layout_constraintVertical_bias="0.182" />
+            app:layout_constraintVertical_bias="0.116" />
 
         <CheckBox
             android:id="@+id/checkBox1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:text="@string/comp"
+            android:text="@string/inteligencia"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.057"
@@ -184,7 +165,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:textColor="@color/black"
-            android:text="@string/une"
+            android:text="@string/ra"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView3"
@@ -194,7 +175,7 @@
             android:id="@+id/checkBox4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ext"
+            android:text="@string/rv"
             android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -207,14 +188,14 @@
             android:id="@+id/button"
             android:layout_width="269dp"
             android:layout_height="46dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="88dp"
             android:background="@drawable/background_botao"
             android:text="@string/cadastrar"
             android:textSize="14sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
