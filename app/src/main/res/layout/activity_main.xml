@@ -213,12 +213,24 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/textView6" />
 
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
         <RadioButton
+            android:id="@+id/radiobutton1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
             app:layout_constraintTop_toBottomOf="@id/camiseta"
             tools:layout_editor_absoluteX="16dp" />
+            <RadioButton
+                android:id="@+id/radiobutton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                app:layout_constraintTop_toBottomOf="@id/camiseta"
+                tools:layout_editor_absoluteX="16dp" />
+        </RadioGroup>
 
         <Button
             android:id="@+id/button"
