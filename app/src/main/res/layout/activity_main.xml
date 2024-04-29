@@ -194,7 +194,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="12dp"
             android:textColor="@color/black"
-            android:text="escolha o tamanho da camiseta"
+            android:text="@string/tamanho_camisa"
             app:layout_constraintEnd_toStartOf="@+id/spinner"
             app:layout_constraintHorizontal_bias="0.065"
             app:layout_constraintStart_toStartOf="parent"
