@@ -16,4 +16,10 @@
     <string name="une">Unemat</string>
     <string name="ext">Externo</string>
     <string name="cadastrar">Cadastrar</string>
+
+    <string-array name="tamanho_camiseta">
+        <item>P</item>
+        <item>M</item>
+        <item>G</item>
+    </string-array>
 </resources>
